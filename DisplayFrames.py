@@ -20,7 +20,7 @@ while frame is not None:
     
     print(f'Displaying frame {count}')
     # Display the frame in a window called "Video"
-    cv2.imshow('Video', frame)
+    # cv2.imshow('Video', frame)
 
     # Wait for 42 ms and check if the user wants to quit
     if cv2.waitKey(frameDelay) and 0xFF == ord("q"):
